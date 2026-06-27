@@ -50,9 +50,6 @@ function renderSuppliers() {
     section.appendChild(grid);
     suppliersContainer.appendChild(section);
   });
-
-  initSupplierImageBackgroundRemoval(suppliersContainer);
-  watchSupplierImages();
 }
 
 function setupPackageCard() {
@@ -73,9 +70,6 @@ function setupPackageCard() {
 
   const packageCount = document.getElementById("package-count");
   if (packageCount) packageCount.textContent = String(BRAINSHOP_SUPPLIERS.length);
-
-  initSupplierImageBackgroundRemoval(document.querySelector(".package-card"));
-  watchSupplierImages();
 }
 
 function productCard(product) {
@@ -147,4 +141,3 @@ setupPackageCard();
 setupFilters();
 applyRevealAnimation();
 setYear();
-watchSupplierImages();
