@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BrainShop | Premium Football Jerseys</title>
+  <meta
+    name="description"
+    content="BrainShop showcases premium football jerseys from trusted suppliers. Order quickly on WhatsApp."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">BrainShop</a>
+      <nav class="nav">
+        <a href="#catalog">Catalog</a>
+        <a href="#fornitori">Fornitori</a>
+        <a href="#contacts">Contacts</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-content reveal">
+        <p class="eyebrow">2026 Drop</p>
+        <h1>Premium Football Jerseys</h1>
+        <p class="subtitle">Premium Football Jerseys from trusted suppliers</p>
+        <a href="#catalog" class="btn btn-primary">Shop Collection</a>
+      </div>
+    </section>
+
+    <section id="catalog" class="section section-soft">
+      <div class="container">
+        <div class="section-heading reveal">
+          <h2>Full Catalog</h2>
+          <p>Order directly on WhatsApp in one click.</p>
+        </div>
+
+        <div class="filters reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="club">Club</button>
+          <button class="filter-btn" data-filter="national">National</button>
+        </div>
+
+        <div id="catalog-grid" class="product-grid"></div>
+      </div>
+    </section>
+
+    <section id="fornitori" class="section section-soft">
+      <div class="container">
+        <div class="section-heading reveal">
+          <h2>Fornitori Privati</h2>
+          <p>Accedi ai migliori fornitori verificati. Acquisto rapido su WhatsApp.</p>
+        </div>
+
+        <article class="package-card reveal">
+          <div class="package-card-top">
+            <div class="package-badge">
+              <span class="package-eyebrow">Offerta Speciale</span>
+              <h3>PACK COMPLETO<br><span id="package-count">50+</span> FORNITORI</h3>
+            </div>
+            <div class="package-visual">
+              <img id="package-image" src="" alt="Pacchetto completo fornitori" loading="lazy" />
+            </div>
+            <a
+              class="package-wa"
+              href="#"
+              id="package-wa-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Acquista pacchetto su WhatsApp"
+            >
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.96 7.96 0 0 1-4.075-1.12l-.293-.174-2.867.853.853-2.867-.174-.293A7.96 7.96 0 0 1 4 12c0-4.411 3.589-8 8-8s8 3.589 8 8-3.589 8-8 8z"/>
+              </svg>
+            </a>
+            <a class="supplier-vendita-btn package-vendita" href="#" id="package-buy-link">Ordina su WhatsApp</a>
+          </div>
+          <div class="supplier-card-bottom package-bottom">
+            <p class="supplier-title">Pacchetto completo con tutti i fornitori</p>
+            <p class="supplier-old-price" id="package-old-price"></p>
+            <p class="supplier-price" id="package-price"></p>
+            <a class="btn btn-whatsapp btn-supplier-order" href="#" id="package-order-btn">Ordina su WhatsApp</a>
+          </div>
+        </article>
+
+        <div id="suppliers-container"></div>
+      </div>
+    </section>
+
+    <section id="contacts" class="section">
+      <div class="container reveal">
+        <div class="section-heading">
+          <h2>Contacts</h2>
+          <p>For any request, sizing info, and stock checks.</p>
+        </div>
+        <div class="contact-grid">
+          <a
+            class="btn btn-whatsapp"
+            href="https://wa.me/393338207631?text=Ciao%20BrainShop%2C%20vorrei%20pi%C3%B9%20informazioni%20sulle%20vostre%20maglie."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Chat on WhatsApp
+          </a>
+          <a class="contact-link" href="#" aria-label="Instagram placeholder">@kithub.store</a>
+          <a class="contact-link" href="mailto:info@kithub.store">info@kithub.store</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> BrainShop. Static showcase website.</p>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="suppliers.js"></script>
+  <script src="image-bg.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

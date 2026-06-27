@@ -1,0 +1,76 @@
+METTI QUI LE IMMAGINI DEI FORNITORI
+===============================
+
+Cartella: assets/suppliers/
+Formato: .jpeg (minuscolo)
+Sfondo foto: bianco (il sito lo rimuove automaticamente sulla card colorata)
+
+Dopo aver caricato le foto, ricarica il sito con Ctrl+F5.
+
+--- FASCIA 1 ---
+sneakers.jpeg
+nike-trainers.jpeg
+adidas.jpeg
+football-jersey-1.jpeg
+football-jersey-2.jpeg
+football-boots.jpeg
+stussy.jpeg
+corteiz.jpeg
+essentials.jpeg
+broken-planet.jpeg
+carhartt.jpeg
+ralph-lauren.jpeg
+stone-island.jpeg
+the-north-face.jpeg
+
+--- FASCIA 2 ---
+represent.jpeg
+bape.jpeg
+cdg-play.jpeg
+ami.jpeg
+alo.jpeg
+lululemon.jpeg
+activewear.jpeg
+gymwear.jpeg
+ugg.jpeg
+asics-trainers.jpeg
+p6000.jpeg
+
+--- FASCIA 3 ---
+streetwear.jpeg
+blank-hoodies.jpeg
+pants.jpeg
+socks.jpeg
+hats-beanie.jpeg
+bucket-hat.jpeg
+nike-miler.jpeg
+
+--- FASCIA 4 ---
+hand-bags.jpeg
+sunglasses.jpeg
+belt.jpeg
+necklace.jpeg
+bracelet-1.jpeg
+bracelet-2.jpeg
+van-cleef.jpeg
+scarf.jpeg
+keychain.jpeg
+phone-case.jpeg
+
+--- FASCIA 5 ---
+dresses.jpeg
+satin-dress.jpeg
+bodysuit-tops.jpeg
+skirts.jpeg
+swimsuit.jpeg
+heels.jpeg
+
+--- FASCIA 6 ---
+winter-jacket.jpeg
+birkenstock.jpeg
+coach.jpeg
+perfume.jpeg
+gloves.jpeg
+
+--- PACCHETTO COMPLETO ---
+package.jpeg
